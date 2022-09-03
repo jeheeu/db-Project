@@ -1,0 +1,282 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+* {
+      font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+body {
+    background: #F2F2F2;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* Navigation Styles */
+
+nav {
+    background: #12592B ;
+    position: relative;
+    z-index:10;
+}
+
+nav ul {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff ;
+    display: block;
+    font-size: 14px;
+    padding: 15px 14px;
+    transition: 0.3s linear;
+}
+
+nav ul li:hover {
+    background: #09A603;
+}
+
+nav ul li ul {
+    border-bottom: 5px solid #12592B ;
+    display: none;
+    position: absolute;
+    width: 250px;
+}
+
+nav ul li ul li {
+
+    display: block;
+}
+
+nav ul li ul li:first-child {
+    border-top: none;
+}
+
+nav ul li ul li a {
+    background: #373737;
+    display: block;
+    padding: 10px 14px;
+}
+
+nav ul li ul li a:hover {
+    background: #09A603 ;
+}
+
+nav .fa.fa-angle-down {
+    margin-left: 6px;
+}
+form {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+.d1 input {
+  position: relative;
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #12592B;
+  border-radius: 5px;
+  outline: none;
+  background: #F2F2F2;
+  color: #444444;
+
+}
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #12592B;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.d2 input {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  border: 2px solid #DCDCDC;
+  border-radius: 5px;
+  outline: none;
+  background: #F2F2F2;
+  color: #444444;
+
+}
+.d2 button {
+  position: absolute; 
+  top: 30px;
+  right: 0px;
+  width: 400px;
+  height: 60px;
+  border: none;
+  background: #12592B;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.d3 button {
+  position: absolute; 
+  top: 30px;
+  right: 0px;
+  width: 400px;
+  height: 60px;
+  border: none;
+  background: #ADADAD;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.d2 button:before {
+
+  font-size: 16px;
+  color: #09A603;
+}
+.slider{
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden; /* 현재 슬라이드 오른쪽에 위치한 나머지 슬라이드들이 보이지 않도록 가림 */
+}
+.slider input[type=radio]{
+    display: none;
+}
+ul.imgs{
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+}
+ul.imgs li{
+    position: absolute;
+    left: 640px;
+    transition-delay: 1s;
+    /* 새 슬라이드가 이동해 오는 동안 이전 슬라이드 이미지가 배경이 보이도록 지연 */
+    padding: 0;
+    margin: 0;
+}
+.bullets{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+}
+.bullets label{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.55);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+/* 현재 선택된 불릿 배경 흰색으로 구분 표시 */
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+    background-color: #fff;
+}
+
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+
+.indiv
+{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border-radius:  20px;
+    border: 1px solid #12592B;
+    margin: 50px 50px;
+    position: relative;  
+}
+.lb-wrap {
+  width: 100%;
+  position: relative;
+}
+.lb-wrap img {
+  width: 100%;
+  height: 350px; 
+  vertical-align: middle;
+}
+.lb-text {
+  color: white;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box1 {
+    width: 150px;
+    height: 150px; 
+    border-radius: 70%;
+    overflow: hidden;
+}
+.profile1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
