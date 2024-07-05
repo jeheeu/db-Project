@@ -1,4 +1,3 @@
-# db-Project
 # oxmall
 * 대학교 데이터베이스 텀프로젝트에서 개발한 중고거래 플랫폼
   * html, css, js, php로 제작한 프로젝트이다
@@ -19,3 +18,15 @@
 ![post](https://github.com/jeheeu/db-Project/assets/88657670/b7db4529-fc9c-4ba5-9c13-9699daf8ffe1)
 ### 4. 게시판 작성
 ![write](https://github.com/jeheeu/db-Project/assets/88657670/bce5357d-76dd-4b94-b332-89624625bd0d)
+### 5. 상품보기
+![view](https://github.com/jeheeu/db-Project/assets/88657670/cb4d53fd-c0a8-48fe-9bd2-65586ad2a374)
+### 6.
+![]()
+### 7.
+![]()
+### 8.
+![]()
+### 9.
+![]()
+### 10.
+![]()
