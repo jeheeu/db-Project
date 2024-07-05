@@ -15,3 +15,7 @@
 ![main](https://github.com/jeheeu/db-Project/assets/88657670/c4cd9d6f-04ca-4049-b6cb-52ebda4fcad8)
 ### 2. 관리자
 ![aboutus](https://github.com/jeheeu/db-Project/assets/88657670/b2168904-b0ac-4075-b193-f8596b0150f9)
+### 3. 거래 게시판
+![post](https://github.com/jeheeu/db-Project/assets/88657670/b7db4529-fc9c-4ba5-9c13-9699daf8ffe1)
+### 4. 게시판 작성
+![write](https://github.com/jeheeu/db-Project/assets/88657670/bce5357d-76dd-4b94-b332-89624625bd0d)
