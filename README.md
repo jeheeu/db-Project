@@ -22,24 +22,23 @@
 ![view](https://github.com/jeheeu/db-Project/assets/88657670/cb4d53fd-c0a8-48fe-9bd2-65586ad2a374)
 ### 6.프로젝트의 목적 기능
 ![newuser](https://github.com/jeheeu/db-Project/assets/88657670/7121e7d4-4ec9-4aff-a535-75ead8d61001)
-### 7.
-![](https://github.com/jeheeu/db-Project/assets/88657670/2f9fcd22-dedf-4855-8381-8118ce7f5073)
-### 8.
-![](https://github.com/jeheeu/db-Project/assets/88657670/cf2caef1-393c-40f8-a970-a133edd2961b)
-### 9.
-![](https://github.com/jeheeu/db-Project/assets/88657670/165577c9-0eaa-4772-be41-12397e4c95f9)
-### 10.
-![](https://github.com/jeheeu/db-Project/assets/88657670/60a05288-cb87-46d8-aa7e-5f006e54cdcb)
-### 11.
+### 7. 이메일 인증
+![maill](https://github.com/jeheeu/db-Project/assets/88657670/2f9fcd22-dedf-4855-8381-8118ce7f5073)
+### 8. 로그인 및 로그아웃
+![login](https://github.com/jeheeu/db-Project/assets/88657670/cf2caef1-393c-40f8-a970-a133edd2961b)
+### 9. 마이페이지
+![profile](https://github.com/jeheeu/db-Project/assets/88657670/165577c9-0eaa-4772-be41-12397e4c95f9)
+### 10. 공지사항
+![공지사항](https://github.com/jeheeu/db-Project/assets/88657670/60a05288-cb87-46d8-aa7e-5f006e54cdcb)
+### 11. 공지사항 게시물보기
 ![](https://github.com/jeheeu/db-Project/assets/88657670/f17ef232-8b9a-4ca7-bdde-5ed6a4c2b8a1)
-### 12.
-![](https://github.com/jeheeu/db-Project/assets/88657670/75ded7f2-cfa9-438a-b2c1-5cbd8ed11d6f)
-### 13.
-![](https://github.com/jeheeu/db-Project/assets/88657670/e5b482e4-7975-40cb-b460-aee1ca65a04d)
-### 14.
+### 12. 신고 게시판
+![guilty](https://github.com/jeheeu/db-Project/assets/88657670/75ded7f2-cfa9-438a-b2c1-5cbd8ed11d6f)
+### 13. 신고 게시판 작성
+![guiltypost](https://github.com/jeheeu/db-Project/assets/88657670/e5b482e4-7975-40cb-b460-aee1ca65a04d)
 ![](https://github.com/jeheeu/db-Project/assets/88657670/f367f9be-c01c-48c1-a86e-8bfb5ac437e6)
-### 15.
-![](https://github.com/jeheeu/db-Project/assets/88657670/1edb1270-6cda-4d3b-8343-f2c0dc78725c)
+### 14. 톡알림
+![alarm](https://github.com/jeheeu/db-Project/assets/88657670/1edb1270-6cda-4d3b-8343-f2c0dc78725c)
 
 
 
