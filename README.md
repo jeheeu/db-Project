@@ -11,3 +11,4 @@
 * 채팅 구현
 * 공지사항, 거래 게시판, 신고게시판, 알림 등으로 구성 되어 있다
   ***
+https://github.com/jeheeu/db-Project/issues/1#issue-2392359097
